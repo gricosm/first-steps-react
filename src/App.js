@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Person from './components/share/Person/Person.js'
+import Counter from './components/share/Counter/Counter.js'
 
 function App() {
   return (
@@ -18,11 +19,14 @@ function App() {
         >
           Learn React, chumaco.
         </a>
-
+        <div> 
         <Person name="Jose" surname="Rodriguez" age={35}/>
         <Person name="James" surname="Hetfield" age={58}/>
         <Person name="Julio" surname="Verne" age={97}/>
-
+        </div>
+        <div>
+          <Counter numberIncrement = {2} numberDecrement= {7} />
+        </div>
       </header>
     </div>
   );

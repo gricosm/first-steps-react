@@ -2,7 +2,8 @@ import { Component } from "react";
 
 class Person extends Component{
 
-    contructor(props){
+    constructor(props){
+        super(props)
         this.props = props
     }
     render(){
