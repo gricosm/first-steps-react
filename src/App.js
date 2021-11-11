@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Person from './components/share/Person/Person.js'
 
 function App() {
   return (
@@ -15,11 +16,18 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React, chumaco.
         </a>
+
+        <Person name="Jose" surname="Rodriguez" age={35}/>
+        <Person name="James" surname="Hetfield" age={58}/>
+        <Person name="Julio" surname="Verne" age={97}/>
+
       </header>
     </div>
   );
 }
+
+
 
 export default App;
